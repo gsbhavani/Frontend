@@ -81,7 +81,7 @@ const LineGraph = () => {
     <div>
       <h2>Sales Line Chart</h2>
       {error ? (
-        <p style={{ color: "red" }}>{error}</p>
+        <p style={{ color: "Red" }}>{error}</p>
       ) : (
         <div style={{ width: "1400px", height: "500px" }}>  {/* Adjust width and height here */}
           <Line data={chartData} options={{ maintainAspectRatio: false }} /> {/* Ensures the aspect ratio is not locked */}
