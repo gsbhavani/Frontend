@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.chart-container > div {
+  width: 45%;
+  margin: 20px 0;
 }
